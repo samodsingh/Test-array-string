@@ -1,9 +1,10 @@
-var ary =["a","xy","9"];
-var text = 'string';
-function fnname(){
-    var str = ary.toString();
-   
-    document.write(text+ " = " + str)
-}
-fnname ()
 
+function concateString(arr) {
+    var concatenatedString = '';
+    for(var i = 0; i < arr.length > 0; i++) {
+        concatenatedString = concatenatedString + arr[i];
+    }
+    document.write(concatenatedString);
+}
+
+concateString(['a', 'xy','9']);
